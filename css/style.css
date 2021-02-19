@@ -110,7 +110,9 @@ input, select {
 /*-----------------------------------------------*/
 
 
+
 /* ---header--- */
+
 
 
 header {
@@ -144,7 +146,11 @@ header a{
     font-size:14px;
 }
 
+
+
 /* ---Main-visual--- */
+
+
 
 #Main-visual{
     height:400px;
@@ -163,7 +169,10 @@ header a{
 }
 
 
+
 /* ---company-overview--- */
+
+
 
 #company-overview {
     margin:0 auto 30px;
@@ -211,11 +220,10 @@ header a{
 
 
 #business-introduction{
-    height:450px;
     text-align: center;
-    margin:0 auto;
     background: url(../img/bg3.jpg) no-repeat;
     background-size:cover;
+    margin:0 auto;
 
 }
 
@@ -229,6 +237,7 @@ header a{
     display:flex;
     margin-top:30px;
     justify-content: space-evenly;
+
 }
 
 .business {
@@ -238,7 +247,7 @@ header a{
     font-size:18px;
     color:white;
     box-sizing: border-box;
-    text-align: center;
+    margin-bottom:50px;
 }
 
 .business img{
@@ -253,4 +262,95 @@ header a{
 .business p{
     width:92%;
     margin:0 auto;
+}
+
+
+
+/* ---company-information--- */
+
+
+
+#company-information {
+    margin:0 auto;
+}
+
+#company-information h1{
+    text-align:center;
+    padding:50px 0;
+    font-weight:bold;
+    font-size:28px;
+}
+
+.infomation {
+    text-align:left;
+    width:70%;
+    font-size:20px;
+    margin:0 auto 50px;
+}
+
+.infomation tr{
+    border-bottom:1px solid rgba(51, 51, 51, 0.8);
+}
+
+.infomation th{
+    padding:15px 0;
+}
+
+
+
+/* ---Contact--- */
+
+
+
+#contact {
+   text-align: center;
+   background: rgb(241, 241, 241);
+}
+
+#contact h1{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 0;
+  margin: 0;
+}
+
+form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+    text-align: left;
+    display: inline-block;
+    width:30%;
+}
+
+.input {
+    box-sizing: border-box;
+    border: 1px solid #999;
+    width:65%;
+}   
+
+input {
+  margin-bottom: 20px;
+  padding: 7px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button {
+  padding: 10px 30px;
+  background-color: #000;
+  color: #fff;
+  margin: 30px 0;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
 }
